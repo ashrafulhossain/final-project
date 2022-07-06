@@ -31,7 +31,7 @@ body {
 
 .link-button {
     text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
+    background-color: #FF5959;
     padding: 10px 20px;
     color: white;
     font-weight: 700;
@@ -64,16 +64,20 @@ body {
 .salary {
     font-size: 20px;
     font-weight: bold;
-    color: grey;
+    color: #B5B5B5;
     padding: 20px 20px;
     margin: 10px 0px 10px 10px;
-    background-color: rgb(248, 246, 246);
-    box-shadow: 2px 10px 5px white;
+    background-color: #FAFAFA;
+
+
 }
 
 #specific-salary {
     border: 2px solid tomato;
     border-radius: 2px;
+    background-color: #FFEEEE;
+    color: #FF5959;
+    font-weight: bold;
 }
 
 #other-amount {
@@ -115,7 +119,9 @@ hr {
 
 
 
-
+.top-heading {
+    font-size: 50px;
+}
 
 .donation-collect {
     margin-top: -25%;
@@ -131,9 +137,19 @@ hr {
     margin-bottom: 30px;
 }
 
+.good {
+    font-size: 20px;
+}
+
+#brilliant {
+    font-size: 15px;
+}
+
 .donation-food {
     display: flex;
     margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .donation-food p {
@@ -141,30 +157,69 @@ hr {
 }
 
 .help-people {
-    padding: 15px 20px 15px 15px;
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin: 5px;
+    height: 352px;
+    width: 360px;
+    border-radius: 5px;
 }
 
 #picture {
-    background-color: antiquewhite;
+    background-color: #EDF5F6
 }
 
 .help-people img {
-    width: 35px;
+    width: 80px;
 }
 
 #photo {
-    background-color: azure;
-}
-
-.help-people h4 {
-    font-size: 15px;
+    background-color: #FFEEEE;
 }
 
 #image {
-    background-color: beige
+    background-color: #FFF4D6;
 }
 
-.help-people p {
-    font-size: 12px;
+.update-section {
+    text-align: center;
 }
+
+.semester {
+    padding: 0px 20% 0px 25%;
+    font-size: small;
+    margin-bottom: 30px;
+}
+
+.update-form {
+    background-color: #FFF4D6;
+    padding: 50px 5px;
+    margin: 0px 20%;
+}
+
+.mail-box {
+    width: 30%;
+    height: 30px;
+    background-color: rgba(165, 168, 170, 0.979);
+    border: none;
+}
+
+#subscribe-btn {
+    background-color: rgba(240, 23, 70, 0.74);
+    text-decoration: none;
+    padding: 4px 10px;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    margin-top: 20px;
+}
+
+footer h3 {
+    font-family: sans-serif;
+    color: rgba(200, 240, 21, 0.986);
