@@ -1,0 +1,40 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.pic {
+    background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.3)), url(/look.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+
+}
+
+.change {
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    padding-left: 30%;
+    padding-top: 10%;
+}
+
+#header {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.writting {
+    font-size: small;
+    margin-bottom: 30px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+    border: 5px;
+
+}
