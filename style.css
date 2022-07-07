@@ -2,16 +2,15 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.pic {
+.top-section {
     background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.3)), url(/look.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     color: white;
-
 }
 
-.change {
+.container {
     width: 500px;
     height: 500px;
     text-align: center;
@@ -19,25 +18,25 @@ body {
     padding-top: 10%;
 }
 
-#header {
+.top-heading {
     font-size: 40px;
     font-weight: bold;
 }
 
-.writting {
+.p-description {
     font-size: small;
     margin-bottom: 30px;
 }
 
-.link-button {
+.btn-sector {
     text-decoration: none;
+    color: white;
     background-color: #FF5959;
     padding: 10px 20px;
-    color: white;
-    font-weight: 700;
-    border: 5px;
-
+    border-radius: 5px;
 }
+
+
 
 /* -- donate-section style-- */
 .salary-donation {
@@ -212,6 +211,76 @@ hr {
     color: white;
 }
 
+
+
+
+
+.donate-plan-container {
+    margin-top: -25%;
+}
+
+.donate-plan {
+    text-align: center;
+}
+
+.donate-plan p {
+    padding: 0px 20% 0px 25%;
+    font-size: small;
+    margin-bottom: 30px;
+}
+
+.plan-container {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.plan-container p {
+    text-align: justify;
+}
+
+.first-plan {
+    padding: 15px 20px 15px 15px;
+    background-color: aliceblue;
+    margin: 5px;
+}
+
+.first-plan img {
+    width: 35px;
+}
+
+.first-plan h4 {
+    font-size: 15px;
+}
+
+.first-plan p {
+    font-size: 12px;
+}
+
+.how_contribute {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    width: 90%;
+}
+
+.contribute {
+    padding: 35px;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.contribute img {
+    width: 100%;
+}
+
+
+
+
+
+
+
 footer {
     background-color: black;
     color: white;
@@ -223,3 +292,5 @@ footer {
 footer h3 {
     font-family: sans-serif;
     color: rgba(200, 240, 21, 0.986);
+
+}
