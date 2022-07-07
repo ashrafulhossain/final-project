@@ -3,7 +3,7 @@ body {
 }
 
 .top-section {
-    background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.3)), url(/look.jpg);
+    background: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.3)), url(/images/look.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
